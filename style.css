@@ -60,7 +60,7 @@ header {
   position: relative;
   font-family: "Poppins", serif;
   transition: 0.3s;
-  
+  opacity: 1;
 }
 
 .header-nav ul li a::after {
