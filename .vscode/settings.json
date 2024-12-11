@@ -1,0 +1,18 @@
+{
+  "powermode.enabled": true,
+  "powermode.presets": "exploding-rift",
+  "powermode.explosions.gifMode": "restart",
+  "powermode.explosions.maxExplosions": 100,
+  "powermode.explosions.offset": 0.2,
+  "powermode.explosions.size": 20,
+  "powermode.combo.location": "off",
+  "powermode.combo.counterEnabled": "default",
+  "powermode.combo.counterSize": 3,
+  "powermode.combo.threshold": 0,
+  "powermode.combo.timeout": 100,
+  "powermode.combo.timerEnabled": "default",
+  "powermode.shake.intensity": 0,
+  "powermode.explosions.backgroundMode": "image",
+  "powermode.explosions.duration": 1000,
+  "powermode.explosions.frequency": 2
+}
