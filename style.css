@@ -59,8 +59,7 @@ header {
   text-decoration: none;
   position: relative;
   font-family: "Poppins", serif;
-  transition: .3s;
-  opacity: 0;
+  transition: 0.3s;
 }
 
 .header-nav ul li a::after {
@@ -110,11 +109,11 @@ header {
 }
 
 @keyframes slideRidht {
-  0%{
+  0% {
     transform: translateX((-100px));
     opacity: 0;
   }
-  100%{
+  100% {
     transform: translateX(0px);
     opacity: 1;
   }
