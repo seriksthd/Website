@@ -14,5 +14,6 @@
   "powermode.shake.intensity": 0,
   "powermode.explosions.backgroundMode": "image",
   "powermode.explosions.duration": 1000,
-  "powermode.explosions.frequency": 2
+  "powermode.explosions.frequency": 2,
+  "liveServer.settings.port": 5501
 }

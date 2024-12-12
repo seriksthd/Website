@@ -91,7 +91,7 @@ header {
   display: flex;
   align-items: center;
   color: #fff;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 .home h3 {
   font-size: 40px;
@@ -119,7 +119,19 @@ header {
     opacity: 1;
   }
 }
-/* lorem10fgnfnfffffffffffffffffffffffffffffffffffffffffffffffffffffff */
+
+.header-continer{
+  display: flex;
+  flex-wrap: wrap;
+}
+model-viewer{
+  width:50%;
+  height:600px;
+}
+/* ===================================
+  =                                   =
+   ===================================
+*/
 
 .container {
   max-width: 1170px;
@@ -137,7 +149,10 @@ ul {
   padding: 70px 0;
 }
 .footer-col {
-  width: 50%;
+  width:25%
+}
+.header-col{
+width: 38%;
 }
 .footer-col h4 {
   position: relative;
@@ -173,6 +188,7 @@ ul {
   color: white;
   padding-left: 8px;
 }
+
 .footer-col .social-links a {
   display: inline-block;
   height: 40px;

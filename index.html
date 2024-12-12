@@ -31,34 +31,49 @@
           </ul>
         </nav>
       </div>
-      <section class="header-continer">
-        <div class="home">
-          <h3>Hello It's ME</h3>
-          <h1>Kamytov serik</h1>
-          <h3>and I'm a <span class="text"></span></h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            <br />
-            cupiditate quisquam optio voluptatum voluptates maxime at illum
-            dolore
-          </p>
-          <div class="footer-col">
-            <div class="social-links">
-              <a
-                href="https://www.instagram.com/ser1k_kamytov?igsh=bmNodXZkdTE1MnF4&utm_source=qr"
-                ><i class="fab fa-instagram"></i
-              ></a>
-              <a href="https://t.me/Ser1k08"><i class="fab fa-telegram"></i></a>
-              <a href="https://github.com/seriksthd"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-              <a href="https://www.tiktok.com/@ti1ek.k1ngx?_t=8rYsVwMdLfe&_r=1"
-                ><i class="fab fa-tiktok"></i
-              ></a>
+      <div class="header-continer">
+        <section class="header-continer">
+          <div class="home">
+            <h3>Hello It's ME</h3>
+            <h1>Kamytov serik</h1>
+            <h3>and I'm a <span class="text"></span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium
+              <br />
+              cupiditate quisquam optio voluptatum voluptates maxime at illum
+              dolore
+            </p>
+            <div class="footer-col header-col">
+              <div class="social-links">
+                <a
+                  href="https://www.instagram.com/ser1k_kamytov?igsh=bmNodXZkdTE1MnF4&utm_source=qr"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="https://t.me/Ser1k08"
+                  ><i class="fab fa-telegram"></i
+                ></a>
+                <a href="https://github.com/seriksthd"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@ti1ek.k1ngx?_t=8rYsVwMdLfe&_r=1"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <model-viewer
+          src="scene.gltf"
+          alt="A 3D model of a car"
+          shadow-intensity="1"
+          camera-controls
+          auto-rotate
+          ar
+        >
+        </model-viewer>
+      </div>
     </header>
     <main></main>
     <footer class="footer">
@@ -112,5 +127,13 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
   </body>
 </html>
